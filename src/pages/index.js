@@ -6,9 +6,9 @@ import "../styles/index.scss";
 const Home = () => {
   const { title } = useSiteMetadata();
 
-  return <div>{title}</div>;
+  return <div>Hi, grey! Welcome to {title}!</div>;
 };
 
 export default Home;
 
-export const Head = () => <Seo title={`Beyond The Downpour`} />;
+export const Head = () => <Seo title={`Welcome!`} />;
