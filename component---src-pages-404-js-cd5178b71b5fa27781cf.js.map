@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-cd5178b71b5fa27781cf.js","mappings":"0LAEe,SAASA,IACtB,OAAOC,EAAAA,cAAA,WAAK,QACd,C","sources":["webpack://beyond-the-downpour/./src/pages/404.js"],"sourcesContent":["import * as React from \"react\";\n\nexport default function PageNotFound() {\n  return <div>Oops!</div>;\n}\n"],"names":["PageNotFound","React"],"sourceRoot":""}
