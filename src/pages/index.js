@@ -1,12 +1,19 @@
-import * as React from "react";
+import React from "react";
 import { useSiteMetadata } from "../hooks/use-site-metadata";
 import { Seo } from "../components/seo";
-import "../styles/index.scss";
+import { Link } from "gatsby";
 
 const Home = () => {
   const { title } = useSiteMetadata();
 
-  return <div>Hi, grey! Welcome to {title}!</div>;
+  return (
+    <>
+      Hi, grey! Welcome to {title}!
+      <br />
+      <br />
+      <Link to="/page/1">Start!</Link>
+    </>
+  );
 };
 
 export default Home;
