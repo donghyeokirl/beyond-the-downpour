@@ -10,7 +10,7 @@ const Page1 = () => {
       Page 1 - {test}
       <br />
       <br />
-      <button onClick={() => setTest("What")}>test btn</button>
+      <button onClick={() => setTest("Changed!")}>test btn</button>
       <br />
       <Link to={`/`}>Go Home</Link>
       <br />

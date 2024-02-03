@@ -3,7 +3,7 @@ import React, { useState, useEffect, useContext } from "react";
 const defaultState = {
   dark: false,
   toggleDark: () => {},
-  test: "Mine",
+  test: "State Check",
   setTest: () => {},
 };
 
@@ -14,7 +14,7 @@ const supportsDarkMode = () =>
 
 const ThemeProvider = ({ children }) => {
   const [dark, setDark] = useState(false);
-  const [test, setTest] = useState("Mine");
+  const [test, setTest] = useState("State Check");
 
   const toggleDark = () => {
     const newDark = !dark;
